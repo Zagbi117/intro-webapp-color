@@ -1,0 +1,70 @@
+/* Estilo General */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00c6ff; /* Color cian brillante */
+    text-shadow: 0 0 10px #00c6ff;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo de los elementos del formulario */
+label {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+input[type="range"] {
+    accent-color: #00c6ff; /* Color cian brillante */
+}
+
+input[type="number"],
+input[type="color"] {
+    background-color: #1e1e1e;
+    border: 2px solid #00c6ff;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="color"]:focus {
+    border-color: #ff00ff; /* Color rosa neón al enfocar */
+    box-shadow: 0 0 15px #ff00ff;
+    outline: none;
+}
+
+/* Estilo del cuadro de color */
+#colorBox {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00c6ff, 0 0 30px #ff00ff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#hexCode {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00ff6a; /* Verde neón */
+    text-shadow: 0 0 10px #00ff6a;
+    transition: color 0.3s ease;
+}
+
+/* Contenedor */
+.container {
+    max-width: 800px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 20px #000000;
+}
